@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158167017FDFE439A81994E8B685F8A7 /* WeakDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2ECED232420A1D330EAC309725CDFC /* WeakDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16FC9A7AA775080C3D9628540F6D2C1E /* SpriteElementEssence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A4805D2E28C116971FFDAB04FCD3D /* SpriteElementEssence.swift */; };
+		17CEABCC6E47FCBB8DBEFBB3998FFAF6 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11172F8EDE015C4F8FD16B4E9AE039D /* SpriteKit.framework */; };
+		331E6EB35793698904EA54883A915D14 /* SpriteElementScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3499F3E2B9943C5A43D79F16E10CD70F /* SpriteElementScene.swift */; };
+		52376D1789BAF7EEF589D96BC5F2BB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3903DD9C482441A4489E28E06A41B83 /* Foundation.framework */; };
+		54CA27CF98B56AF71FFF881896566C2A /* Pods-SpriteKitElementsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E89EDA8D7FF6FE30401CD88C21C2C /* Pods-SpriteKitElementsExample-dummy.m */; };
+		5DE5B177749B768BEDC16ECE0DAF8621 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2293FD22F214D58EFB540CF1CC182F21 /* Info.plist */; };
+		5EF8F98D644BD4344BB35B15C7A95AA2 /* SpriteElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65B4F56A8469DE94D0511C244E8F2C /* SpriteElement.swift */; };
+		61F797F5C55E8218A05319714164A8C0 /* WeakDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51BB967706CC22223703EF47677F038 /* WeakDictionary.swift */; };
+		641EFA6AAEC60C2B7C90E76C10D8B370 /* WeakDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A45B314AE9D0A0289841BC6719C7BB /* WeakDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C4CE8B746A6C6F96300E4436FA060D /* SpriteKitElements-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB010C261D17F7A6243FAC06F21A3B9 /* SpriteKitElements-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEADAFADF0D8B7CAE1A9D1AF4DD7DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3903DD9C482441A4489E28E06A41B83 /* Foundation.framework */; };
+		8475E59F8247AB476FB34A60910157B1 /* Pods-SpriteKitElementsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08170F401BE80A78CCCDA08A7B86B79E /* Pods-SpriteKitElementsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A838263B19F7583D847EB422F8D55A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3903DD9C482441A4489E28E06A41B83 /* Foundation.framework */; };
+		92991A4040E374F20F3CA532EFB1321E /* SpriteKitElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA514FF6B010F5AEF75E046BA321ABC /* SpriteKitElements-dummy.m */; };
+		D59ECCF761DE39521C808C1895DE5958 /* WeakDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD175381C93600C05B75E9A748383C /* WeakDictionary.framework */; };
+		E0B109636E99DB12827718322CDB5A18 /* WeakDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33E6467A99B5F160EB844C37912C4A /* WeakDictionary-dummy.m */; };
+		F7EB124C05CECBFC6FDDEA0DE450599D /* SpriteKitElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 7809E36DD6510E2C0153BCEB8EE3B9A8 /* SpriteKitElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA371093ADC5F732D72937E9D55B4C43 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = A29F921DA01DF1A8E457DAEE49D68364 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1954FD2A585BE31E43FB5DCD1F1DF1C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D8C2EE30F23B6E4168BB2D482994D8;
+			remoteInfo = WeakDictionary;
+		};
+		A439C329C164F83E867798DB036C8571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7443D4100CD09752E3B6F5AEFD2B1B5D;
+			remoteInfo = SpriteKitElements;
+		};
+		D26B31B797144B1AA3332FBC4B77D375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D8C2EE30F23B6E4168BB2D482994D8;
+			remoteInfo = WeakDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08170F401BE80A78CCCDA08A7B86B79E /* Pods-SpriteKitElementsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpriteKitElementsExample-umbrella.h"; sourceTree = "<group>"; };
+		0B33E6467A99B5F160EB844C37912C4A /* WeakDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeakDictionary-dummy.m"; sourceTree = "<group>"; };
+		0EA514FF6B010F5AEF75E046BA321ABC /* SpriteKitElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpriteKitElements-dummy.m"; sourceTree = "<group>"; };
+		21D5C79C7652018C13F054A72B00C49B /* WeakDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeakDictionary.xcconfig; sourceTree = "<group>"; };
+		2293FD22F214D58EFB540CF1CC182F21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = WeakDictionary/Info.plist; sourceTree = "<group>"; };
+		2D61A7DAE6C43E3200EC0C7406E4D7C1 /* Pods-SpriteKitElementsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpriteKitElementsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3499F3E2B9943C5A43D79F16E10CD70F /* SpriteElementScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteElementScene.swift; path = SpriteKitElements/SpriteKitElements/SpriteElementScene.swift; sourceTree = "<group>"; };
+		375EFE331E59ACD2F5FD60C6B6280491 /* WeakDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeakDictionary-prefix.pch"; sourceTree = "<group>"; };
+		3CF450F5920429AF2E1FD764AB905313 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4219B719660C3CE22BBCE8DA1F61CDA1 /* WeakDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeakDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A45B314AE9D0A0289841BC6719C7BB /* WeakDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeakDictionary-umbrella.h"; sourceTree = "<group>"; };
+		4A52CEF747D78432926930FCE7C5C41C /* WeakDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WeakDictionary.modulemap; sourceTree = "<group>"; };
+		4F1972E4B80C10E1786888928B40F259 /* Pods-SpriteKitElementsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpriteKitElementsExample.release.xcconfig"; sourceTree = "<group>"; };
+		6A65B4F56A8469DE94D0511C244E8F2C /* SpriteElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteElement.swift; path = SpriteKitElements/SpriteKitElements/SpriteElement.swift; sourceTree = "<group>"; };
+		7809E36DD6510E2C0153BCEB8EE3B9A8 /* SpriteKitElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpriteKitElements.h; path = SpriteKitElements/SpriteKitElements/SpriteKitElements.h; sourceTree = "<group>"; };
+		7E03B9F6CFD2FA14C2A973204E94A5DC /* Pods-SpriteKitElementsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpriteKitElementsExample.modulemap"; sourceTree = "<group>"; };
+		7F6A4805D2E28C116971FFDAB04FCD3D /* SpriteElementEssence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteElementEssence.swift; path = SpriteKitElements/SpriteKitElements/SpriteElementEssence.swift; sourceTree = "<group>"; };
+		8D2ECED232420A1D330EAC309725CDFC /* WeakDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeakDictionary.h; path = WeakDictionary/WeakDictionary.h; sourceTree = "<group>"; };
+		8FB010C261D17F7A6243FAC06F21A3B9 /* SpriteKitElements-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteKitElements-umbrella.h"; sourceTree = "<group>"; };
+		91F9B24DD7386449D660EB4D2A2E7C0F /* Pods-SpriteKitElementsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpriteKitElementsExample-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCC7F557386441E4C61EC9ECC989019 /* SpriteKitElements.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpriteKitElements.xcconfig; sourceTree = "<group>"; };
+		A29F921DA01DF1A8E457DAEE49D68364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpriteKitElements/SpriteKitElements/Info.plist; sourceTree = "<group>"; };
+		A34B939F7B4EAA72C4D96354037A2120 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36E89EDA8D7FF6FE30401CD88C21C2C /* Pods-SpriteKitElementsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpriteKitElementsExample-dummy.m"; sourceTree = "<group>"; };
+		A944DCCD3132BB58BA91B13625E1AF76 /* SpriteKitElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteKitElements-prefix.pch"; sourceTree = "<group>"; };
+		ABDD175381C93600C05B75E9A748383C /* WeakDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeakDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10BE7E0143E71627BA86E7D41C32EB4 /* SpriteKitElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7687CBFB0B705E3D6E401ACFC63B1DE /* Pods-SpriteKitElementsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpriteKitElementsExample-frameworks.sh"; sourceTree = "<group>"; };
+		C3FF765180CE26A07494E69724D33E3C /* Pods_SpriteKitElementsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpriteKitElementsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C900934138FD044FD2C922356DBCA8A4 /* SpriteKitElements.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SpriteKitElements.modulemap; sourceTree = "<group>"; };
+		CA108EA9CBEF7390F2B9EC1E987CBCB0 /* Pods-SpriteKitElementsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpriteKitElementsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3903DD9C482441A4489E28E06A41B83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E51BB967706CC22223703EF47677F038 /* WeakDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakDictionary.swift; path = WeakDictionary/WeakDictionary.swift; sourceTree = "<group>"; };
+		ED9A458D36858059B841B401F72CB4D0 /* Pods-SpriteKitElementsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpriteKitElementsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F11172F8EDE015C4F8FD16B4E9AE039D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		FFB306F74387BA19A585258E7E3932D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24360DC7F87C4EB141883AFAC440D284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEADAFADF0D8B7CAE1A9D1AF4DD7DCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448B1CFA1BB3EDDE6D614BA3EE3AB9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52376D1789BAF7EEF589D96BC5F2BB65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C947FFFBAC3C415F15FA69591362DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A838263B19F7583D847EB422F8D55A1 /* Foundation.framework in Frameworks */,
+				17CEABCC6E47FCBB8DBEFBB3998FFAF6 /* SpriteKit.framework in Frameworks */,
+				D59ECCF761DE39521C808C1895DE5958 /* WeakDictionary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2953BC4DB90E2A13C2506FCC7B7A7622 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3903DD9C482441A4489E28E06A41B83 /* Foundation.framework */,
+				F11172F8EDE015C4F8FD16B4E9AE039D /* SpriteKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		39FA06BF1C8995AFAA3680B4FAE3680E /* Pods-SpriteKitElementsExample */ = {
+			isa = PBXGroup;
+			children = (
+				A34B939F7B4EAA72C4D96354037A2120 /* Info.plist */,
+				7E03B9F6CFD2FA14C2A973204E94A5DC /* Pods-SpriteKitElementsExample.modulemap */,
+				CA108EA9CBEF7390F2B9EC1E987CBCB0 /* Pods-SpriteKitElementsExample-acknowledgements.markdown */,
+				2D61A7DAE6C43E3200EC0C7406E4D7C1 /* Pods-SpriteKitElementsExample-acknowledgements.plist */,
+				A36E89EDA8D7FF6FE30401CD88C21C2C /* Pods-SpriteKitElementsExample-dummy.m */,
+				B7687CBFB0B705E3D6E401ACFC63B1DE /* Pods-SpriteKitElementsExample-frameworks.sh */,
+				91F9B24DD7386449D660EB4D2A2E7C0F /* Pods-SpriteKitElementsExample-resources.sh */,
+				08170F401BE80A78CCCDA08A7B86B79E /* Pods-SpriteKitElementsExample-umbrella.h */,
+				ED9A458D36858059B841B401F72CB4D0 /* Pods-SpriteKitElementsExample.debug.xcconfig */,
+				4F1972E4B80C10E1786888928B40F259 /* Pods-SpriteKitElementsExample.release.xcconfig */,
+			);
+			name = "Pods-SpriteKitElementsExample";
+			path = "Target Support Files/Pods-SpriteKitElementsExample";
+			sourceTree = "<group>";
+		};
+		5B53456AA1AB595E5D71483EF9BAA9F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD175381C93600C05B75E9A748383C /* WeakDictionary.framework */,
+				2953BC4DB90E2A13C2506FCC7B7A7622 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6304CE80AAA2E56E37BC7D2F4C176F79 /* WeakDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2293FD22F214D58EFB540CF1CC182F21 /* Info.plist */,
+				8D2ECED232420A1D330EAC309725CDFC /* WeakDictionary.h */,
+				E51BB967706CC22223703EF47677F038 /* WeakDictionary.swift */,
+				93421952E693B518BA39A027A4891D03 /* Support Files */,
+			);
+			path = WeakDictionary;
+			sourceTree = "<group>";
+		};
+		67CF91F9D5FC27F9B6FDB12044774E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FF765180CE26A07494E69724D33E3C /* Pods_SpriteKitElementsExample.framework */,
+				B10BE7E0143E71627BA86E7D41C32EB4 /* SpriteKitElements.framework */,
+				4219B719660C3CE22BBCE8DA1F61CDA1 /* WeakDictionary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7708D0E95239FD1CB31CEE245C359CD3 /* SpriteKitElements */ = {
+			isa = PBXGroup;
+			children = (
+				A29F921DA01DF1A8E457DAEE49D68364 /* Info.plist */,
+				6A65B4F56A8469DE94D0511C244E8F2C /* SpriteElement.swift */,
+				7F6A4805D2E28C116971FFDAB04FCD3D /* SpriteElementEssence.swift */,
+				3499F3E2B9943C5A43D79F16E10CD70F /* SpriteElementScene.swift */,
+				7809E36DD6510E2C0153BCEB8EE3B9A8 /* SpriteKitElements.h */,
+				B0146EC80A5330D59445C24063399DEE /* Support Files */,
+			);
+			path = SpriteKitElements;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5B53456AA1AB595E5D71483EF9BAA9F7 /* Frameworks */,
+				84034EF71A3E4D63E3AB358124B72FF3 /* Pods */,
+				67CF91F9D5FC27F9B6FDB12044774E43 /* Products */,
+				BE58CA2AA4CCA005399F194153387B58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84034EF71A3E4D63E3AB358124B72FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7708D0E95239FD1CB31CEE245C359CD3 /* SpriteKitElements */,
+				6304CE80AAA2E56E37BC7D2F4C176F79 /* WeakDictionary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93421952E693B518BA39A027A4891D03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB306F74387BA19A585258E7E3932D2 /* Info.plist */,
+				4A52CEF747D78432926930FCE7C5C41C /* WeakDictionary.modulemap */,
+				21D5C79C7652018C13F054A72B00C49B /* WeakDictionary.xcconfig */,
+				0B33E6467A99B5F160EB844C37912C4A /* WeakDictionary-dummy.m */,
+				375EFE331E59ACD2F5FD60C6B6280491 /* WeakDictionary-prefix.pch */,
+				42A45B314AE9D0A0289841BC6719C7BB /* WeakDictionary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WeakDictionary";
+			sourceTree = "<group>";
+		};
+		B0146EC80A5330D59445C24063399DEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF450F5920429AF2E1FD764AB905313 /* Info.plist */,
+				C900934138FD044FD2C922356DBCA8A4 /* SpriteKitElements.modulemap */,
+				9FCC7F557386441E4C61EC9ECC989019 /* SpriteKitElements.xcconfig */,
+				0EA514FF6B010F5AEF75E046BA321ABC /* SpriteKitElements-dummy.m */,
+				A944DCCD3132BB58BA91B13625E1AF76 /* SpriteKitElements-prefix.pch */,
+				8FB010C261D17F7A6243FAC06F21A3B9 /* SpriteKitElements-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpriteKitElements";
+			sourceTree = "<group>";
+		};
+		BE58CA2AA4CCA005399F194153387B58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FA06BF1C8995AFAA3680B4FAE3680E /* Pods-SpriteKitElementsExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D4B9B478934EEDD18AE02E434B9EB62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475E59F8247AB476FB34A60910157B1 /* Pods-SpriteKitElementsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825E19BB14A6AB3616B24463E9AAF3AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4CE8B746A6C6F96300E4436FA060D /* SpriteKitElements-umbrella.h in Headers */,
+				F7EB124C05CECBFC6FDDEA0DE450599D /* SpriteKitElements.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED2F3CFE00415D3398316B9ADB19F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641EFA6AAEC60C2B7C90E76C10D8B370 /* WeakDictionary-umbrella.h in Headers */,
+				158167017FDFE439A81994E8B685F8A7 /* WeakDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7443D4100CD09752E3B6F5AEFD2B1B5D /* SpriteKitElements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68794548B3D3723BF2689F07D37A38C6 /* Build configuration list for PBXNativeTarget "SpriteKitElements" */;
+			buildPhases = (
+				CF737B9AA369A213D55111B304719374 /* Sources */,
+				4C947FFFBAC3C415F15FA69591362DC1 /* Frameworks */,
+				825E19BB14A6AB3616B24463E9AAF3AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BECCB503D711BBD532B4DD046049C2 /* PBXTargetDependency */,
+			);
+			name = SpriteKitElements;
+			productName = SpriteKitElements;
+			productReference = B10BE7E0143E71627BA86E7D41C32EB4 /* SpriteKitElements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3FB7C46C63CA70BDC92D8A247FA63BE /* Pods-SpriteKitElementsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BBC3FDBB3D2B88D8F22524F5CA2E53 /* Build configuration list for PBXNativeTarget "Pods-SpriteKitElementsExample" */;
+			buildPhases = (
+				5C0C98B82C6B439AF62A987141A4E016 /* Sources */,
+				448B1CFA1BB3EDDE6D614BA3EE3AB9C6 /* Frameworks */,
+				1D4B9B478934EEDD18AE02E434B9EB62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A93B894FA859B9D6BD0D65DC91E825 /* PBXTargetDependency */,
+				70C9251B9A77F040AD035CE8DF0A0C4C /* PBXTargetDependency */,
+			);
+			name = "Pods-SpriteKitElementsExample";
+			productName = "Pods-SpriteKitElementsExample";
+			productReference = C3FF765180CE26A07494E69724D33E3C /* Pods_SpriteKitElementsExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5D8C2EE30F23B6E4168BB2D482994D8 /* WeakDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB91D37D95FDA7252458B4488AB3FB16 /* Build configuration list for PBXNativeTarget "WeakDictionary" */;
+			buildPhases = (
+				CEB40DF97EC4069BD735814EBFD1DC13 /* Sources */,
+				24360DC7F87C4EB141883AFAC440D284 /* Frameworks */,
+				DED2F3CFE00415D3398316B9ADB19F23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeakDictionary;
+			productName = WeakDictionary;
+			productReference = 4219B719660C3CE22BBCE8DA1F61CDA1 /* WeakDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 67CF91F9D5FC27F9B6FDB12044774E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FB7C46C63CA70BDC92D8A247FA63BE /* Pods-SpriteKitElementsExample */,
+				7443D4100CD09752E3B6F5AEFD2B1B5D /* SpriteKitElements */,
+				E5D8C2EE30F23B6E4168BB2D482994D8 /* WeakDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0C98B82C6B439AF62A987141A4E016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CA27CF98B56AF71FFF881896566C2A /* Pods-SpriteKitElementsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB40DF97EC4069BD735814EBFD1DC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE5B177749B768BEDC16ECE0DAF8621 /* Info.plist in Sources */,
+				E0B109636E99DB12827718322CDB5A18 /* WeakDictionary-dummy.m in Sources */,
+				61F797F5C55E8218A05319714164A8C0 /* WeakDictionary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF737B9AA369A213D55111B304719374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA371093ADC5F732D72937E9D55B4C43 /* Info.plist in Sources */,
+				5EF8F98D644BD4344BB35B15C7A95AA2 /* SpriteElement.swift in Sources */,
+				16FC9A7AA775080C3D9628540F6D2C1E /* SpriteElementEssence.swift in Sources */,
+				331E6EB35793698904EA54883A915D14 /* SpriteElementScene.swift in Sources */,
+				92991A4040E374F20F3CA532EFB1321E /* SpriteKitElements-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70BECCB503D711BBD532B4DD046049C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeakDictionary;
+			target = E5D8C2EE30F23B6E4168BB2D482994D8 /* WeakDictionary */;
+			targetProxy = D26B31B797144B1AA3332FBC4B77D375 /* PBXContainerItemProxy */;
+		};
+		70C9251B9A77F040AD035CE8DF0A0C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeakDictionary;
+			target = E5D8C2EE30F23B6E4168BB2D482994D8 /* WeakDictionary */;
+			targetProxy = 1954FD2A585BE31E43FB5DCD1F1DF1C8 /* PBXContainerItemProxy */;
+		};
+		75A93B894FA859B9D6BD0D65DC91E825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpriteKitElements;
+			target = 7443D4100CD09752E3B6F5AEFD2B1B5D /* SpriteKitElements */;
+			targetProxy = A439C329C164F83E867798DB036C8571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0670A7DF7E67F9412D1183328FB81003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D5C79C7652018C13F054A72B00C49B /* WeakDictionary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WeakDictionary/WeakDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeakDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeakDictionary/WeakDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WeakDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		705FD20B1C662C73A616EDB20773505E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1972E4B80C10E1786888928B40F259 /* Pods-SpriteKitElementsExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpriteKitElementsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpriteKitElementsExample/Pods-SpriteKitElementsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpriteKitElementsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		867093E70ADBD62571892BB01F5AF768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A458D36858059B841B401F72CB4D0 /* Pods-SpriteKitElementsExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpriteKitElementsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpriteKitElementsExample/Pods-SpriteKitElementsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpriteKitElementsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3A4E57D06F3BBF61E5C913E3641C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D5C79C7652018C13F054A72B00C49B /* WeakDictionary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WeakDictionary/WeakDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeakDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeakDictionary/WeakDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WeakDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8F592C75238BE4CBA83EFEF52C6FC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCC7F557386441E4C61EC9ECC989019 /* SpriteKitElements.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpriteKitElements/SpriteKitElements-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpriteKitElements/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpriteKitElements/SpriteKitElements.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpriteKitElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8531DC9E3048855E474DCF812BEB4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCC7F557386441E4C61EC9ECC989019 /* SpriteKitElements.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpriteKitElements/SpriteKitElements-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpriteKitElements/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpriteKitElements/SpriteKitElements.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SpriteKitElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68794548B3D3723BF2689F07D37A38C6 /* Build configuration list for PBXNativeTarget "SpriteKitElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8531DC9E3048855E474DCF812BEB4F2 /* Debug */,
+				A8F592C75238BE4CBA83EFEF52C6FC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB91D37D95FDA7252458B4488AB3FB16 /* Build configuration list for PBXNativeTarget "WeakDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0670A7DF7E67F9412D1183328FB81003 /* Debug */,
+				8A3A4E57D06F3BBF61E5C913E3641C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BBC3FDBB3D2B88D8F22524F5CA2E53 /* Build configuration list for PBXNativeTarget "Pods-SpriteKitElementsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867093E70ADBD62571892BB01F5AF768 /* Debug */,
+				705FD20B1C662C73A616EDB20773505E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

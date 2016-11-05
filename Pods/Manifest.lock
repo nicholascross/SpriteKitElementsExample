@@ -1,0 +1,15 @@
+PODS:
+  - SpriteKitElements (0.4.1):
+    - WeakDictionary (~> 1.2.1)
+  - WeakDictionary (1.2.1)
+
+DEPENDENCIES:
+  - SpriteKitElements
+
+SPEC CHECKSUMS:
+  SpriteKitElements: 6e8bc997616cef7cbfe157edb556fca490a89a0d
+  WeakDictionary: de3810f387a6b4bd47ddc172423d62053a6dcdbd
+
+PODFILE CHECKSUM: 0c4f0695ab2760e02addc411d2a2eae2b0ad2192
+
+COCOAPODS: 1.0.1
