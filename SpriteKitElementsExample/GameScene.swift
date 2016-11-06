@@ -51,12 +51,17 @@ class RemoveOffScreen: SpriteElement {
     }
     
     func update(atTime currentTime: TimeInterval, delta: TimeInterval, node: SKNode) {
-        if currentTime > timeInterval[node]! + 1 &&  node.position.y < -500 {
+        guard currentTime > timeInterval[node]! + 1 else {
+            //This does not need to be done on every frame
+            return
+        }
+                
+        timeInterval[node] = currentTime
+        
+        if node.position.y < -500 {
             node.removeFromParent()
-            timeInterval[node] = currentTime
         }
     }
-    
 }
 
 class ColorElement : SpriteElement {
