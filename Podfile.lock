@@ -1,15 +1,15 @@
 PODS:
-  - SpriteKitElements (0.4.1):
-    - WeakDictionary (~> 1.2.1)
-  - WeakDictionary (1.2.1)
+  - SpriteKitElements (0.4.2):
+    - WeakDictionary (~> 1.2.2)
+  - WeakDictionary (1.2.2)
 
 DEPENDENCIES:
   - SpriteKitElements
 
 SPEC CHECKSUMS:
-  SpriteKitElements: 6e8bc997616cef7cbfe157edb556fca490a89a0d
-  WeakDictionary: de3810f387a6b4bd47ddc172423d62053a6dcdbd
+  SpriteKitElements: c4f9e50a0ee0d58fb3d4a9a07016e7839bdd7341
+  WeakDictionary: 0b4109a5a144f72d8026a6264a2721266601de19
 
 PODFILE CHECKSUM: 0c4f0695ab2760e02addc411d2a2eae2b0ad2192
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
